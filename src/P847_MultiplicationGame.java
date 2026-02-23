@@ -209,14 +209,4 @@ public class P847_MultiplicationGame {
             return Boolean.parseBoolean(next());
         }
     }
-
-    private static class Pair {
-        String autor;
-        int nivel;
-
-        Pair(String autor, int nivel) {
-            this.autor = autor;
-            this.nivel = nivel;
-        }
-    }
 }
