@@ -37,7 +37,7 @@ public class P10213_PiecesOfLand {
         // la cual viene dada por la ecuación (n^4 - 6*n^3 + 23*n^2 - 18*n + 24) / 24.
         // Podemos factorizar el numerador como ((((n - 6) * n + 23) * n - 18) * n +
         // 24):
-        BigInteger n = BigInteger.valueOf(sc.nextInt()), v24 = b(24);
+        BigInteger n = b(sc.nextInt()), v24 = b(24);
 
         BigInteger res = n.subtract(b(6)).multiply(n)
                 .add(b(23)).multiply(n)
@@ -146,4 +146,5 @@ public class P10213_PiecesOfLand {
             return Boolean.parseBoolean(next());
         }
     }
+
 }
